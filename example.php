@@ -6,7 +6,7 @@
 
 	// Load our class file and create our object.
 	include_once( 'class.cta.php' );
-	$transit = new CTA( '8cc5a63ecfff4149a15ee528a9302228', 'gXcqPBnRgcvSe2AMcPyF8FSRy', false );
+	$transit = new CTA( 'YOUR-TRAIN-API_KEY_HERE', 'YOUR-BUS-API-KEY-HERE', false );
 
 	$status = array( 0 => 'bus', 1 => 'train' );
 	echo 'Here is the array containing current status information for CTA buses and trains:<br/>';
