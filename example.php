@@ -1,6 +1,6 @@
 <?php
 
-	// An collection of simple examples of using class.cta.php
+	// A collection of simple examples of using class.cta.php
 	// For more information about the CTA's APIs, including terms of use and including how to request API Keys, can be found at:
 	// http://www.transitchicago.com/developers/default.aspx
 

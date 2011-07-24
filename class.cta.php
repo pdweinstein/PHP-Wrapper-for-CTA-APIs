@@ -2,26 +2,27 @@
 
 /*
  *	This CTA class file is an API wrapper for interfacing with the Chicago Transit Authority's three web-based Application Programming
- *	Interfaces for Bus, Train ('El') and Service related information. 
+ *	Interfaces for Bus, Train ('El') and Alerts related information. 
  *
- *	Due to the evolution of the CTA's API interfaces, there are three distinct APIs, one for Bus, Train and Service information. As a
+ *	Due to the evolution of the CTA's API interfaces, there are three distinct APIs, one for Bus, Train and Customer Alerts information. As a
  *	result there are three distinct URI endpoints and two distinct API keys. 
  *
- *	This class brings all three APIs together into one object with related methods for accessing Bus, Train and Service information.
+ *	This class brings all three APIs together into one object with related methods for accessing Bus, Train and  Customer Alert information.
  *
  *	However, there is no requirement that both an Bus and Train API key are needed to use this class file. That is while this class 
  *	file helps to unify the three distinct APIs together for a PHP developer, this class can also be used to interface with just the 
- *	Bus, Train or Service API and nothing else.  
+ *	Bus, Train or Customer Alert API and nothing else.  
  *
  *	Thus the initiation of the object is done by simply providing a Bus and/or Train API Key.
  *
  *	More information about the CTA's APIs, including terms of use and including how to request API Keys, can be found at:
  *	http://www.transitchicago.com/developers/default.aspx
  * 
- *   @package CTA
- *   @author Paul Weinstein, <pdw@weinstein.org>
- *   @version 1.0
- *	@copyright Paul Weinstein 2011
+ *   @package		CTA
+ *   @author		Paul Weinstein, <pdw@weinstein.org>
+ *   @version		1.0
+ *	@copyright	Copyright (c) 2011 Paul Weinstein, <pdw@weinstein.org>
+ *	@license		MIT License, <https://github.com/pdweinstein/PHP-Wrapper-for-CTA-APIs/blob/master/LICENSE>
  *
  *	Copyright (c) 2011 Paul Weinstein, <pdw@weinstein.org>
  *
